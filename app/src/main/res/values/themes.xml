@@ -1,0 +1,23 @@
+<resources>
+    <!-- Base application theme for Views -->
+    <style name="Theme.GestureControlApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/automotive_primary_blue</item>
+        <item name="colorPrimaryDark">@color/automotive_secondary_blue</item>
+        <item name="colorOnPrimary">@color/automotive_text_primary</item>
+
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/automotive_accent_orange</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Background colors -->
+        <item name="android:statusBarColor">?attr/colorPrimaryDark</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/automotive_surface</item>
+
+        <!-- Other colors -->
+        <item name="colorSurface">@color/automotive_surface</item>
+        <item name="colorOnSurface">@color/automotive_text_primary</item>
+        <item name="colorError">@color/automotive_error</item>
+    </style>
+</resources>

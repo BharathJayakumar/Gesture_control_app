@@ -1,0 +1,25 @@
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Automotive Theme Colors -->
+    <color name="automotive_primary_blue">#FF0D47A1</color>
+    <color name="automotive_secondary_blue">#FF1976D2</color>
+    <color name="automotive_accent_orange">#FFFF6F00</color>
+    <color name="automotive_dark_gray">#FF1C1C1E</color>
+    <color name="automotive_medium_gray">#FF2C2C2E</color>
+    <color name="automotive_light_gray">#FF3A3A3C</color>
+    <color name="automotive_text_primary">#FFFFFFFF</color>
+    <color name="automotive_text_secondary">#FFB0BEC5</color>
+    <color name="automotive_success">#FF4CAF50</color>
+    <color name="automotive_warning">#FFFF9800</color>
+    <color name="automotive_error">#FFE57373</color>
+    <color name="automotive_background">#FF121212</color>
+    <color name="automotive_surface">#FF1E1E1E</color>
+    <color name="automotive_surface_variant">#FF2C2C2E</color>
+</resources>
