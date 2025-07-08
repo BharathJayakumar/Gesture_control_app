@@ -1,5 +1,5 @@
 package com.example.gesturecontrolapp
-
+// Required imports for Android and Compose UI elements
 import android.content.Context
 import android.media.AudioManager
 import android.os.Bundle
@@ -43,6 +43,7 @@ import kotlinx.coroutines.delay
 import java.net.ConnectException
 import java.net.SocketTimeoutException
 
+// Main Activity - entry point of the app
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -56,6 +57,7 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun VolumeControlApp() {
+    // UI states for displaying sensor readings and system volume info
     var distance by remember { mutableStateOf("Connecting...") }
     var volumeLevel by remember { mutableStateOf(0) }
     var currentSystemVolume by remember { mutableStateOf(0) }
