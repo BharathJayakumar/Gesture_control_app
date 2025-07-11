@@ -101,7 +101,7 @@ GestureControlApp/
 ├── /Energia_code/                                           # CC3200 Firmware  
 │   ├── GestureContrrolApp.ino                               # Main logic + HTTP server  
 │  
-├── /Android_app/                                            # Android Studio Project  
+├── # Android Studio Project  
 │   ├── MainActivity.java                                    # HTTP client for volume control  
 │  
 ├── /GestureControlApp_Bharath Subramaniam Jayakumar.pdf/    # Presentation  
