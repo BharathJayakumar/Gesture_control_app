@@ -42,6 +42,7 @@ import io.ktor.client.request.*
 import kotlinx.coroutines.delay
 import java.net.ConnectException
 import java.net.SocketTimeoutException
+import androidx.activity.compose.setContent
 
 // Main Activity - entry point of the app
 class MainActivity : ComponentActivity() {
@@ -54,6 +55,7 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
+
 
 @Composable
 fun VolumeControlApp() {

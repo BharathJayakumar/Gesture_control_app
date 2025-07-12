@@ -1,3 +1,5 @@
+import org.gradle.kotlin.dsl.testImplementation
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
@@ -55,6 +57,8 @@ android {
         }
     }
 }
+val ktor_version = "2.3.3"
+val coroutines_version = "1.7.3"
 
 dependencies {
     implementation ("com.google.android.material:material:1.11.0")
@@ -97,4 +101,6 @@ dependencies {
     androidTestImplementation("androidx.compose.ui:ui-test-junit4")
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
+    testImplementation ("io.ktor:ktor-client-mock:$ktor_version")
+    testImplementation ("org.jetbrains.kotlinx:kotlinx-coroutines-test:$coroutines_version")
 }
