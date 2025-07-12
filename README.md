@@ -96,7 +96,7 @@ Gesture Control:
 
 ## 💻 Code Structure
 
-GestureControlApp/  
+Gesture_Control_App/  
 │  
 ├── /Energia_code/                                           # CC3200 Firmware  
 │   ├── GestureContrrolApp.ino                               # Main logic + HTTP server  
@@ -107,6 +107,7 @@ GestureControlApp/
 ├── /GestureControlApp_Bharath Subramaniam Jayakumar.pdf/    # Presentation  
 │  
 └── README.md                                                # This file  
+└── Use Case_GestureControlApp_Bharath_Subramaniam_Jayakumar.pdf                                              # This file  
 
 ---
 
